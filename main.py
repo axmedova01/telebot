@@ -35,7 +35,7 @@ def get_text_messages(message):
         else:
             bot.send_message(message.chat.id, 'В папке "output" нет аудиофайлов.')
     elif message.text.lower() == "репозиторий":
-        bot.send_message(message.chat.id, 'Ссылка на репозиторий.')
+        bot.send_message(message.chat.id, 'https://github.com/axmedova01/telebot')
 
 
 bot.polling(none_stop=True, interval=0)
